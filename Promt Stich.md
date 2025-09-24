@@ -1,19 +1,57 @@
-Te comparto el sistema de diseño para generar una aplicación móvil, de momento analiza la información y guardala en tu memoria para la construcción de las interfaces que te voy a solicitar: 
+Descripción de la UI (Párrafo Único)
+Las pantallas de Gestión de Clientes y Gestión de Ventas serán prototipos de alta fidelidad diseñados bajo un estricto tema oscuro del Fluent Design System y sus principios de "Liquid Glass". La interfaz priorizará un diseño mobile-first, con el objetivo de centralizar la información y optimizar los flujos de trabajo con la menor carga cognitiva posible. La pantalla de clientes se centrará en una búsqueda eficiente y una vista de lista-detalle para gestionar perfiles, mientras que la de ventas presentará un embudo visual (Kanban board) con tarjetas interactivas para rastrear las oportunidades. Ambas interfaces incluirán un botón flotante para agregar nuevos elementos, garantizando una interacción rápida y fluida, y utilizarán los componentes y la iconografía definidos en nuestro sistema de diseño para mantener una coherencia visual y funcional total.
 
----
+Prompt Estructurado con Detalle de Componentes
+Pantalla: Gestión de Clientes
 
-La información proporcionada es esencial para definir la arquitectura de diseño con precisión y cumplir con los requisitos de **alta fidelidad** [Query, 382] y el **Javerage Electoral Design System (JEDS)** [Query, 385, 491].
+Bloque Principal Superior:
 
-Hemos confirmado tres puntos clave que ahora se integran en el *prompt* final:
+Barra de Navegación Superior: Con el título "Clientes" y un ícono para regresar.
 
-1. **Fidelidad y Tema:** Se prioriza un prototipo de **Alta Fidelidad** bajo el **Tema Oscuro** [Query].
-2. **Logo:** El **Logo de Javerage Electoral** debe ser prominente en el encabezado para fidelizar la marca [Query].
-3. **Componente "Recordarme":** Se utilizará un **Toggle Switch** (interruptor deslizante) [Query] posicionado debajo del campo de contraseña, alineado con las mejores prácticas de UI móvil.
+Barra de Búsqueda Delineada: Un campo de entrada con un ícono de búsqueda, que se visualiza como un rectángulo translúcido con bordes finos para alinearse con el efecto de vidrio.
 
-A continuación, se presenta la descripción de la UI en un solo párrafo y el *prompt* estructurado con el detalle final de los componentes.
+Contenido de la Pantalla:
 
----
+Lista de Clientes: Un contenedor principal que muestra filas interactivas.
 
-### Descripción de la UI (Párrafo Único)
+Tarjetas de Cliente (Client Cards): Cada tarjeta es un componente de la lista que muestra:
 
-La pantalla de autenticación será un **prototipo de alta fidelidad** adherido estrictamente al **Tema Oscuro** de JEDS [Query, 390], diseñado bajo principios de **minimalismo digital** para garantizar seguridad, claridad y reducir la carga cognitiva. El diseño priorizará el formato *mobile-first*, comenzando con la visualización del **logotipo de la marca** en el encabezado para el reconocimiento y fidelización [Query]. El contenido se centrará en la autenticación, presentando un título de bienvenida y dos campos de entrada delineados (`textField.outlined`) para el Usuario (correo electrónico o ID) y la Contraseña [Query, 493]. Inmediatamente debajo del campo de contraseña, se incluirá el **Toggle Switch** para la función "Recordarme", alineado con los controles del formulario para una interacción eficiente y cumpliendo con el tamaño de objetivo táctil mínimo de **48x48dp**. La acción de acceso se finalizará con un **botón principal de relleno** (`button.filled`) con forma de píldora (`shape.corner.full`), ubicado cerca del borde inferior para facilitar el alcance táctil, y un enlace de soporte para la recuperación de la cuenta [Query, 493].
+Una silueta de usuario o las iniciales del cliente.
+
+El nombre del cliente con un estilo tipográfico de título.
+
+Campos de texto para datos de contacto clave (teléfono, correo).
+
+Botón de Acción Flotante (FAB): Un botón circular, posicionado en la parte inferior derecha, con un ícono de más (+), para añadir un nuevo cliente.
+
+Pantalla de Detalle de Cliente (Vista de Modal o Nueva Pantalla):
+
+Encabezado: Con el nombre del cliente y botones de acción (ej., editar).
+
+Bloques de Contenido: Secciones separadas con títulos para "Datos de Contacto", "Historial de Interacciones", "Pedidos y Actividad".
+
+Pantalla: Gestión de Ventas
+
+Bloque Principal Superior:
+
+Barra de Navegación Superior: Con el título "Ventas" y un ícono para regresar.
+
+Panel de Resumen de Métricas: Un componente horizontal que muestra datos en tiempo real como "Total de Oportunidades" y "Valor del Embudo" con tipografía de subtítulo y métricas destacadas.
+
+Contenido de la Pantalla:
+
+Vista de Embudo (Kanban):
+
+Contenedor Principal de Columnas: Un área horizontalmente desplazable.
+
+Columnas de Etapas: Contenedores verticales para cada etapa del embudo ("Prospecto", "Propuesta Enviada", etc.). Cada columna tiene un título y un número de elementos.
+
+Tarjetas de Oportunidad de Venta (Opportunity Cards): Cada tarjeta es un componente rectangular movible que contiene:
+
+El nombre de la oportunidad con un estilo de texto de título.
+
+Campos de texto para el valor de la venta y el nombre del cliente asociado.
+
+Un área para el estatus y la fecha de la próxima interacción.
+
+Botón de Acción Flotante (FAB): Un botón circular en la parte inferior derecha, con un ícono de más (+), para añadir una nueva oportunidad de venta.

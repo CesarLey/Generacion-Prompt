@@ -1,15 +1,73 @@
-### Prompt para generar diseño de pantalla
+Análisis del Proceso: Gestión de Clientes
+El objetivo de esta pantalla es centralizar la información de los clientes para tener una visión completa de su historial, lo que incluye su perfil, interacciones y estado. La interfaz debe facilitar el registro de nuevos clientes y la consulta rápida de los existentes, ayudando a los equipos de venta a tener una visión completa de su relación con la empresa.
 
-Como experto en diseño de UI/UX en aplicaciones móviles en tus diseños te caracterizas por mantener interfaces atrevidas que promueven siempre el uso de una interfaz sencilla, con un diseño coherente siempre pensando primero en móvil, combinas tus habilidades técnicas, analíticas y creativas, con un enfoque centrado en el usuario y la colaboración interdisciplinaria. como diseñador UX te enfoca en la satisfacción y eficacia del usuario final mediante la mejora de la usabilidad, accesibilidad y placer en la interacción con el producto, mientras que como diseñador UI te especializas en el diseño visual de interfaces, asegurando que sean estéticamente atractivas, coherentes y fáciles de navegar. 
+Descripción General de la Interfaz (UI)
+La interfaz es una pantalla de lista y detalles. En la parte superior, hay un buscador para filtrar clientes, debajo, una lista con los perfiles principales de los clientes. Al seleccionar un cliente de la lista, un panel se desliza desde un lado de la pantalla o se abre una nueva ventana que muestra el perfil completo del cliente, incluyendo sus datos de contacto, un historial de interacciones y un resumen de su actividad. La pantalla también incluye un botón visible para agregar nuevos clientes.
 
-Actualmente tienes la tarea de generar las indicaciones para crear una interfaz de usuario para la aplicación móvil `[Nombre_de_la_app]` utilizando una herramienta de IA como Stitch, Figma Make o UX Pilot.
+Descripción Detallada de la Interfaz (Estructura de Componentes)
+Barra de Navegación Superior: Un área en la parte superior con el título de la pantalla "Clientes" y un ícono para regresar.
 
-El proceso para el cual vas a diseñar la interfaz es el siguiente: `[Agregar_descripción_del_proceso]` 
+Barra de Búsqueda: Debajo de la barra de navegación, un campo de entrada para buscar clientes por nombre, teléfono, o correo electrónico, con un ícono de búsqueda al lado.
 
-Utilizando la siguiente descripción:
+Botón de Acción Flotante: Un botón circular flotante en la esquina inferior derecha o en la esquina superior derecha para agregar un nuevo cliente.
 
-`[Descripción_de_pantalla]`
+Lista de Clientes:
 
-Analiza los pasos del proceso proporcionado y genera una descripción de un solo párrafo que describa la UI; en un apartado independiente debes agregar la descripción detallada de la interfaz de usuario, incluyendo todos los elementos de la interfaz y los bloques de contenido de arriba a abajo. Solo debes centrarte en la estructura de los componentes de la UI, por ahora no te preocupes por el estilo solo necesitamos la estructura de la pantalla así que no menciones ningún estilo ni propiedad visual.
+Contenedor Principal: Un bloque que contiene toda la lista de clientes.
 
-Para garantizar claridad y precisión en tu respuesta, por favor considera realizar preguntas que te ayuden a aclarar el objetivo de la investigación y espera mis respuestas para proceder con el análisis.
+Filas de Clientes: Cada fila representa a un cliente individual. Dentro de cada fila, se muestran los datos esenciales:
+
+Imagen de perfil (opcional, o iniciales).
+
+Nombre completo del cliente.
+
+Información de contacto (número de teléfono, correo).
+
+Un resumen del último contacto o del estado actual.
+
+Panel de Perfil de Cliente (Al seleccionar una fila):
+
+Contenedor Principal: Un panel que ocupa una parte o la totalidad de la pantalla.
+
+Encabezado del Perfil: Con el nombre del cliente y un botón para editar.
+
+Bloque de Datos Personales: Contenedor con campos de entrada de texto para nombre, teléfono, correo, dirección.
+
+Bloque de Historial de Interacciones: Un área con una lista de eventos (llamadas, correos, reuniones, notas), cada uno con fecha, tipo de interacción y un resumen.
+
+Bloque de Actividad y Pedidos: Contenedor que muestra un resumen de los pedidos pasados o el estatus de las oportunidades de venta en curso. Claro. Aquí está la estructura de la interfaz para el proceso de Gestión de Ventas.
+
+Análisis del Proceso: Gestión de Ventas
+El objetivo de esta pantalla es dar a los usuarios una visión clara del embudo de ventas, permitiéndoles rastrear el progreso de cada oportunidad de negocio, desde el primer contacto hasta el cierre. La interfaz debe ser visual y fácil de usar, facilitando la gestión de las oportunidades de venta y la identificación de cuellos de botella.
+
+Descripción General de la Interfaz (UI)
+La pantalla principal es una vista de embudo, con columnas que representan cada etapa del proceso de venta (ej., Prospectos, Calificación, Propuesta). Cada oportunidad de venta se muestra como una tarjeta que contiene información clave (nombre de la oportunidad, valor, cliente asociado). Los usuarios pueden arrastrar y soltar las tarjetas entre las columnas para actualizar su estatus. Hay una barra superior para ver el total de oportunidades y su valor, y un botón para crear una nueva oportunidad de venta.
+
+Descripción Detallada de la Interfaz (Estructura de Componentes)
+Barra de Navegación Superior: Un área con el título de la pantalla "Ventas" y un ícono para regresar.
+
+Barra de Resumen de Oportunidades: Un componente debajo de la barra de navegación que muestra métricas clave:
+
+Total de Oportunidades: El número total de oportunidades en el embudo.
+
+Valor Total del Embudo: La suma de los valores de todas las oportunidades.
+
+Botón de Acción Flotante: Un botón para agregar una nueva oportunidad de venta.
+
+Vista de Embudo (Kanban):
+
+Contenedor Principal: El área donde se muestran todas las columnas del embudo.
+
+Columnas de Etapas: Cada columna es un bloque que representa una etapa del proceso de venta (ej., "Prospecto", "Propuesta Enviada", "Cerrado").
+
+Título de la Columna: El nombre de la etapa.
+
+Recuento de Tarjetas: El número de oportunidades en esa etapa.
+
+Tarjetas de Oportunidad de Venta: Cada tarjeta representa un cliente potencial o una oportunidad de negocio.
+
+Título: El nombre de la oportunidad (ej., "Venta a Taller de Guayaberas Sol").
+
+Información Clave: Un resumen de los datos importantes, como el nombre del cliente, el valor de la venta, y la fecha de la siguiente acción programada.
+
+Funcionalidad de Arrastrar y Soltar: Los usuarios pueden mover las tarjetas de una columna a otra para actualizar el estatus.

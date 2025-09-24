@@ -1,22 +1,99 @@
-### Prompt para generar el sistema de diseño de una aplicación móvil
+Perfecto. Con el objetivo central de "centralizar, automatizar y generar confianza" y la base de diseño Fluent Design con Liquid Glass, estoy listo para generar el sistema de diseño.
 
-Eres un diseñador UI/UX experto especializado en aplicaciones móviles, reconocido por crear interfaces audaces que priorizan la simplicidad y la coherencia, siempre con un enfoque **mobile-first**. Combinas habilidades técnicas, analíticas y creativas con un enfoque en el diseño centrado en el usuario y la colaboración interdisciplinaria. Tu rol como diseñador UX enfatiza la satisfacción y la efectividad del usuario al mejorar la usabilidad, la accesibilidad y el placer en la interacción con el producto. Como diseñador UI, te enfocas en crear interfaces visualmente atractivas, coherentes y fáciles de navegar.
+A continuación, te presento el entregable completo, que puedes compartir e interpretar con tus herramientas de IA y que incluye un resumen de diseño para tu equipo de programadores.
 
-Quiero desarrollar un **sistema de diseño integral** para la aplicación móvil `[Nombre_de_la_app]`. Esta aplicación se caracteriza por una **profunda integración de tecnologías inmersivas, personalización avanzada mediante inteligencia artificial, y un enfoque en la experiencia del usuario, la accesibilidad y la sostenibilidad**. Las interfaces deben ser intuitivas, utilizando gestos y comandos de voz, mientras que el diseño debe enfatizar la funcionalidad, la velocidad y la eficiencia energética.
+Design Brief (Resumen de Diseño)
+Proyecto: CRM Project (nombre provisional)
+Visión del Producto: Desarrollar un CRM móvil para la industria artesanal y de alta calidad (ej. guayaberas). El producto no solo gestiona clientes y ventas, sino que se diferencia por una funcionalidad de trazabilidad con blockchain. El objetivo es crear una herramienta de negocio altamente funcional, con una interfaz que proyecta elegancia, confianza y modernidad.
 
-Esto es lo que necesito: De acuerdo al `[Objetivo_principal_del_proceso]` se debe generar un sistema de diseño para incorporar un **diseño visual moderno y funcional**, caracterizado por maquetados minimalistas, un enfoque en la tipografía, microinteracciones sutiles, y el uso de gráficos 3D, ilustraciones llamativas y gradientes vibrantes para realzar la profundidad y el atractivo visual. Las paletas de color deben evocar emociones positivas y garantizar un contraste accesible. Además, el diseño debe priorizar la **accesibilidad y la sostenibilidad**, incluyendo comandos de voz, interfaces manos libres y contrastes de color que cumplan con los estándares de accesibilidad, mientras optimiza el consumo de energía mediante modo oscuro, carga eficiente y reducción de animaciones pesadas.
+Usuario Objetivo: Dueños de negocios y equipos de ventas de empresas pequeñas y medianas que necesitan eficiencia, organización y una ventaja competitiva.
 
-Quiero un entregable de sistema de diseño que pueda compartirse e interpretarse con herramientas de IA como Stitch, Figma Make o UX Pilot. Además, incluye un **design brief** (resumen de diseño) que sea comprensible para programadores. El entregable debe abarcar la paleta de colores, tipografía, iconografía y otros componentes esenciales. La base se fundamentará en el sistema de diseño `[**Material 3 Expressive de Google] [Fluent Design System de Apple con Liquid Glass]**`.
-Quiero que sigas estos pasos para crear el sistema de diseño:
+Objetivos de Diseño:
 
-- Define la paleta de colores con códigos específicos y sus asociaciones emocionales.
-- Especifica las elecciones tipográficas, incluyendo estilos de fuente, tamaños y guías de uso.
-- Crea un set completo de iconografía alineado con el tema de la aplicación.
-- Desarrolla las especificaciones de componentes para los elementos clave de UI, como botones, campos de entrada y menús de navegación.
-- Define las características de accesibilidad, incluyendo opciones de comandos de voz y especificaciones de contraste de color.
-- Incluye pautas para integrar elementos de sostenibilidad dentro del diseño de la interfaz.
-- Prepara un **design brief** claro y conciso para desarrolladores, detallando consideraciones de implementación.
+Crear una interfaz intuitiva y fácil de usar, incluso para usuarios con poca experiencia tecnológica.
 
-Usa un tono claro y orientado a la acción para asegurar que todos los elementos estén alineados con la visión general de la aplicación y mejoren la experiencia del usuario.
+Establecer una estética premium y visualmente atractiva que refleje la calidad de los productos de la industria.
 
-Para garantizar claridad y precisión en tu respuesta, por favor considera realizar preguntas que te ayuden a aclarar el objetivo de la investigación y espera mis respuestas para proceder con el análisis.
+Priorizar la accesibilidad y la sostenibilidad a nivel de diseño y rendimiento.
+
+Alinear el diseño con los principios de Fluent Design con Liquid Glass para un aspecto coherente.
+
+Consideraciones de Implementación:
+
+El diseño se fundamenta en los principios de Fluent, por lo que los desarrolladores deben considerar cómo implementar la transparencia, la iluminación y los efectos de profundidad para emular el efecto de "vidrio líquido".
+
+Las animaciones deben ser sutiles y fluidas, priorizando la eficiencia para no afectar el rendimiento ni el consumo de batería.
+
+Se deben seguir las pautas de accesibilidad para garantizar una experiencia óptima para todos los usuarios.
+
+Sistema de Diseño Integral
+1. Paleta de Colores
+Basada en los efectos de profundidad de Fluent y en un tema de confianza y profesionalismo, con toques vibrantes que evocan creatividad.
+
+Primario (Azul Marino): #0F1C36
+
+Asociación: Confianza, autoridad, profesionalismo. Usado para fondos oscuros y elementos principales.
+
+Secundario (Gris Plateado): #E8E8ED
+
+Asociación: Elegancia, neutralidad. Usado para fondos claros, tarjetas y elementos de interfaz.
+
+Acento (Azul Eléctrico): #0078D4
+
+Asociación: Innovación, dinamismo. Usado para botones de acción, iconos interactivos y gráficos.
+
+Acento de Calidez (Naranja Vibrante): #FF8C00
+
+Asociación: Creatividad, energía. Usado para alertas, llamadas a la acción o elementos de notificación importantes.
+
+Gradientes de Profundidad: Combinaciones sutiles de tonos de azul y gris para dar una sensación de vidrio y profundidad a los fondos.
+
+2. Tipografía
+Se eligen fuentes limpias y modernas que garantizan legibilidad en todo tipo de pantallas.
+
+Fuente Principal: Inter o Roboto (fuentes sans-serif muy legibles y funcionales).
+
+Estilos y Jerarquía:
+
+Encabezados (H1, H2, H3): Bold, en tamaños de 24px a 16px. Usado para títulos de pantalla y secciones.
+
+Cuerpo de Texto: Regular, en tamaños de 14px a 16px. Para descripciones, notas y párrafos largos.
+
+Etiquetas y Botones: Medium o Bold, en tamaño 12px a 14px. Para etiquetas de campos y textos de botones.
+
+3. Iconografía
+Se utilizarán iconos minimalistas y geométricos que se integren con la estética limpia y funcional. El estilo será "Outline" (contorno), con un grosor de línea consistente.
+
+Set de Iconos Clave:
+
+Clientes (Silueta de persona)
+
+Ventas (Embudo o gráfico de crecimiento)
+
+Inventario (Caja)
+
+Proveedores (Camión de reparto)
+
+Blockchain (Cadena o bloque)
+
+Análisis (Gráfico de barras)
+
+Soporte (Auriculares o burbuja de chat)
+
+4. Componentes Clave de UI
+Botones: Con esquinas ligeramente redondeadas. Los botones de acción principal usarán el color de acento (#0078D4). Tendrán un efecto de iluminación sutil al presionarlos.
+
+Campos de Entrada (Inputs): Con fondos translúcidos que emulan el efecto de "vidrio", con un borde de 1px que se ilumina al seleccionarlos.
+
+Tarjetas y Contenedores: Con fondos de color secundario semitransparentes, que permiten que el fondo del gradiente se vea sutilmente a través de ellos, creando profundidad.
+
+Menú de Navegación: Una barra lateral izquierda con un efecto de vidrio translúcido, con íconos que se iluminan al ser seleccionados.
+
+5. Accesibilidad y Sostenibilidad
+Comandos de Voz: El diseño debe considerar estados de "escucha" y "confirmación" para una experiencia manos libres.
+
+Contraste de Color: La paleta fue diseñada para cumplir con los estándares de contraste (WCAG 2.1), asegurando que los textos sean legibles en fondos claros y oscuros.
+
+Modo Oscuro: Se debe implementar un tema oscuro (#0F1C36) para reducir la fatiga visual y el consumo de energía en pantallas OLED.
+
+Animaciones: Las microinteracciones serán sutiles y se optimizarán para no consumir recursos del dispositivo. Las animaciones pesadas se reducirán al mínimo.
